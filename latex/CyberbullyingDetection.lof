@@ -1,0 +1,72 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Creating an Ask.fm Account\relax }}{7}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Your Ask.fm Questions\relax }}{8}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Asking a question when logged into your account\relax }}{8}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Asking a question when not logged into your account\relax }}{8}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Answering with text and an optional picture\relax }}{9}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Configuring privacy settings\relax }}{9}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Reporting a user or a question and answer\relax }}{9}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Types of inappropriate behaviours to report\relax }}{10}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Deleting questions and blocking the user that asked the question\relax }}{10}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Blocking a user to prevent them asking further questions\relax }}{10}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Deactivating an account\relax }}{11}{figure.caption.30}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Accuracies of sentence level offensiveness detection}}{23}{figure.caption.56}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Roles taken in a cyberbullying incident}}{24}{figure.caption.57}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Top ten profane words for male and female authors}}{26}{figure.caption.58}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Weighted graph model identifying predators and victims}}{27}{figure.caption.59}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Sample question and answer}}{34}{figure.caption.72}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Simple process flow to extract data from HTML files}}{36}{figure.caption.74}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Partitioning data using IBM SPSS}}{39}{figure.caption.118}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Partition operator used generate a new attribute}}{39}{figure.caption.119}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Select operator and the Filter operator settings}}{40}{figure.caption.120}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Independent classification review results}}{44}{figure.caption.130}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces View of the thesis schema}}{46}{figure.caption.133}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Distribution of user records}}{49}{figure.caption.137}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Class Distribution of Sample Questions}}{50}{figure.caption.138}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Sample Questions asked Anonymously}}{50}{figure.caption.139}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Average question length per class}}{51}{figure.caption.141}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Word cloud of not bullying words}}{57}{figure.caption.148}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Word cloud of bullying words}}{57}{figure.caption.149}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Filtered word cloud of not bullying words}}{57}{figure.caption.150}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Filtered word cloud of bullying words}}{58}{figure.caption.151}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Normalised distribution of word frequencies}}{58}{figure.caption.152}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Remove non ASCII characters}}{63}{figure.caption.169}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Remove punctuation characters}}{64}{figure.caption.170}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Replace selected numerical ages with text then remove remaining digits}}{64}{figure.caption.171}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Remove repeated characters and abbreviated words}}{65}{figure.caption.172}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Normalised distribution of word frequencies}}{67}{figure.caption.176}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Bi-gram word clouds}}{68}{figure.caption.178}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Tri-gram word clouds}}{69}{figure.caption.179}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces The structure of the primary datset corpus}}{73}{figure.caption.190}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces List of files for the bullying category}}{74}{figure.caption.204}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Sample positive features}}{74}{figure.caption.216}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces NLTK model development process}}{75}{figure.caption.234}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Performance measurements for initial NLTK classifier}}{76}{figure.caption.236}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Initial NLTK model performance across datasets}}{76}{figure.caption.237}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Comparison of pre-generated and in model n-gram generation}}{79}{figure.caption.247}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces NLTK model performance using under sampling}}{81}{figure.caption.258}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces NLTK model performance using over sampling}}{83}{figure.caption.275}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces NLTK model performance using hybrid sampling}}{84}{figure.caption.288}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Scikit-Learn model performance using default parameters}}{89}{figure.caption.326}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces NLTK - Scikit-Learn runtime comparison}}{91}{figure.caption.329}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Scikit-Learn model performance with default parameters}}{92}{figure.caption.335}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Scikit-Learn comparing best manual results with grid search results}}{95}{figure.caption.363}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Scikit-Learn sampling with grid search results}}{96}{figure.caption.366}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Best Model - G-Performance heat map}}{101}{figure.caption.374}%
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Percentage change in hold back dataset classification}}{110}{figure.caption.389}%
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Analysis of samples that changed classification}}{111}{figure.caption.390}%
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Sample analysis of samples that did not change classification}}{112}{figure.caption.391}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Best Model - G-Performance heat map}}{142}{figure.caption.1403}%
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Best Model - Normalised execution heat map}}{143}{figure.caption.1405}%
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Best Model - Data Manipulation Penalties}}{144}{figure.caption.1408}%
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Best Model - Three best models identified}}{145}{figure.caption.1413}%
+\contentsline {figure}{\numberline {B.5}{\ignorespaces Processing time for batch simulation}}{149}{figure.caption.1420}%
+\contentsline {figure}{\numberline {B.6}{\ignorespaces Analysis of Hybrid Sampling on Hold Back Dataset}}{150}{figure.caption.1421}%
+\contentsline {figure}{\numberline {B.7}{\ignorespaces Analysis of Over Sampling on Hold Back Dataset}}{151}{figure.caption.1422}%

@@ -1,0 +1,53 @@
+\section{Precision, Recall, Accuracy and G-Performance}
+\label{section:2.3}
+
+When evaluating the performance of a model in classifying whether a question was correctly predicted as bullying or not precision, recall and accuracy will be used. When predicting whether a question is bullying there are four possible outcomes:
+
+\begin{enumerate}
+
+	\item \textbf{True Positive} (TP)\\
+	A true positive is where a question is predicted as bullying and is was classified as bullying
+	\item \textbf{False Positive} (FP) \\
+	A false positive is where a question is predicted as bullying but was classified as not bullying
+	\item \textbf{False Negative} (FN)\\
+	A false negative is where a question is predicted as not bullying but was classified as bullying
+	\item \textbf{True Negative} (TN)\\
+	A true negative is where a question is predicted as not bullying and was also classified as not bullying
+
+\end{enumerate}
+
+The overall accuracy of a model is calculated as:
+\begin{equation}
+     \frac{Number of True Positives + Number of True Negatives}{Total Number of Examples}
+\end{equation}
+
+Positive Class Precision is calculated as:
+\begin{equation}
+     \frac{Number of True Positives}{Number of True Positives + Number of False Positives}
+\end{equation}
+
+Positive Class Recall is calculated as:
+\begin{equation}
+     \frac{Number of True Positives}{Number of True Positives + Number of False Negatives}
+\end{equation} 
+
+Negative Class Precision is calculated as:
+\begin{equation}
+     \frac{Number of True Negatives}{Number of True Negatives + Number of False Negatives}
+\end{equation}
+
+Negative Class Recall is calculated as:
+\begin{equation}
+     \frac{Number of True Negatives}{Number of True Negatives + Number of False Positives}
+\end{equation} 
+
+
+Precision and recall are inversely related which mean that as precision increases recall falls and inversely where recall rises precision decreases. The critical decision then is to develop a model that gives high precision and low recall or a model the delivers a low precision value but has high recall. A high precision value with a lower recall value implies that a high percentage of questions that are predicted as bullying will actually be bullying. However, the down side of such a model is that a lot of bullying questions will not be correctly identified. A high recall value obtained from a model would imply that a high percentage of bullying questions are correctly identified but as a consequence a large number of non bullying questions would be incorrectly identified as bullying yielding a lower precision value. Usually a trade-off has to be made between precision and recall depending on the situation and the preferred outcomes.
+
+\subsection{G-Performance}
+In addition to standard classifier performance measures, for example accuracy, precision, recall and F-Measure \citeauthor{kubat_addressing_1997} describes another measure that uses the geometric mean of the accuracies measured separately on each class called the g-performance. The goal of this measure is to maximise the recall of both class but at the same time keeping them balanced such that a poor value for either the positive or negative class will give an overall poor performance for the classifier.
+
+G-Performance is calculated as:
+\begin{equation}
+     g =\sqrt{\frac{True Positives}{True Positives + False Positives} \cdot \frac{True Negatives}{True Negatives + False Positives}}
+\end{equation} 

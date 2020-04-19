@@ -1,0 +1,115 @@
+\contentsline {chapter}{Declaration of Authorship}{i}{dummy.1}%
+\vspace {1em}
+\contentsline {chapter}{Abstract}{ii}{dummy.2}%
+\vspace {1em}
+\contentsline {chapter}{Acknowledgements}{iii}{dummy.3}%
+\vspace {1em}
+\contentsline {chapter}{Contents}{iv}{dummy.4}%
+\contentsline {chapter}{List of Figures}{vii}{dummy.6}%
+\contentsline {chapter}{List of Tables}{ix}{dummy.8}%
+\vspace {2em}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.10}%
+\contentsline {section}{\numberline {1.1}Thesis Research Question}{3}{section.11}%
+\contentsline {section}{\numberline {1.2}Objectives}{3}{section.12}%
+\contentsline {section}{\numberline {1.3}Thesis Structure}{5}{section.13}%
+\contentsline {chapter}{\numberline {2}Background and Tooling}{6}{chapter.14}%
+\contentsline {section}{\numberline {2.1}Introduction to Ask.fm}{6}{section.15}%
+\contentsline {subsection}{\numberline {2.1.1}Creating an Ask.fm Account}{7}{subsection.16}%
+\contentsline {subsection}{\numberline {2.1.2}Questions and Answers}{8}{subsection.18}%
+\contentsline {subsection}{\numberline {2.1.3}Privacy Setting, Reporting Abuse and Deleting Questions}{8}{subsection.23}%
+\contentsline {subsection}{\numberline {2.1.4}Deactivating an Account}{10}{subsection.29}%
+\contentsline {section}{\numberline {2.2}Python, NLTK and Scikit-Learn}{11}{section.31}%
+\contentsline {subsection}{\numberline {2.2.1}Python}{11}{subsection.32}%
+\contentsline {subsection}{\numberline {2.2.2}The Natural Language Toolkit}{11}{subsection.33}%
+\contentsline {subsection}{\numberline {2.2.3}Scikit-Learn}{12}{subsection.34}%
+\contentsline {subsection}{\numberline {2.2.4}Python Resources}{12}{subsection.35}%
+\contentsline {section}{\numberline {2.3}MySQL, SPSS and Excel}{12}{section.36}%
+\contentsline {section}{\numberline {2.4}Precision, Recall, Accuracy and G-Performance}{13}{section.37}%
+\contentsline {subsection}{\numberline {2.4.1}G-Performance}{14}{subsection.47}%
+\contentsline {chapter}{\numberline {3}Literature Review}{15}{chapter.49}%
+\contentsline {section}{\numberline {3.1}Cyberbullying: What is it and why should we care}{15}{section.50}%
+\contentsline {section}{\numberline {3.2}Mining for Cyberbullying Text}{18}{section.51}%
+\contentsline {section}{\numberline {3.3}Common Obstacles to Overcome}{29}{section.60}%
+\contentsline {subsection}{\numberline {3.3.1}Anonymity}{29}{subsection.61}%
+\contentsline {subsection}{\numberline {3.3.2}Data and Classification}{30}{subsection.62}%
+\contentsline {subsection}{\numberline {3.3.3}Class Imbalance}{30}{subsection.63}%
+\contentsline {chapter}{\numberline {4}Data Extraction, Exploration and Processing}{33}{chapter.64}%
+\contentsline {section}{\numberline {4.1}Raw Data Extraction}{34}{section.65}%
+\contentsline {section}{\numberline {4.2}Initial Data Processing}{35}{section.73}%
+\contentsline {subsection}{\numberline {4.2.1}Extract data from HTML Files}{36}{subsection.75}%
+\contentsline {subsection}{\numberline {4.2.2}Splitting the data}{38}{subsection.117}%
+\contentsline {section}{\numberline {4.3}Classification}{40}{section.121}%
+\contentsline {subsection}{\numberline {4.3.1}Cyberbullying Criteria}{40}{subsection.122}%
+\contentsline {subsection}{\numberline {4.3.2}Dataset Classification}{43}{subsection.129}%
+\contentsline {section}{\numberline {4.4}Data Exploration}{46}{section.131}%
+\contentsline {subsection}{\numberline {4.4.1}Data Description}{46}{subsection.132}%
+\contentsline {subsection}{\numberline {4.4.2}Data Quality}{47}{subsection.135}%
+\contentsline {subsection}{\numberline {4.4.3}Data Exploration}{48}{subsection.136}%
+\contentsline {subsection}{\numberline {4.4.4}Data Visualisation}{56}{subsection.147}%
+\contentsline {section}{\numberline {4.5}Data Preparation}{59}{section.153}%
+\contentsline {subsection}{\numberline {4.5.1}Cleaning the Data}{59}{subsection.154}%
+\contentsline {subsection}{\numberline {4.5.2}Write Data in NLTK Corpus Format}{62}{subsection.167}%
+\contentsline {subsection}{\numberline {4.5.3}Analysis of Cleaning Steps}{63}{subsection.168}%
+\contentsline {subsection}{\numberline {4.5.4}Data Exploration Revisited}{65}{subsection.173}%
+\contentsline {subsection}{\numberline {4.5.5}Data Visualisation Revisited}{67}{subsection.177}%
+\contentsline {section}{\numberline {4.6}Summary and Conclusion}{68}{section.180}%
+\contentsline {chapter}{\numberline {5}Data Modelling}{71}{chapter.181}%
+\contentsline {section}{\numberline {5.1}Natural Language Toolkit - Initial Modelling}{72}{section.189}%
+\contentsline {subsection}{\numberline {5.1.1}Model Development}{72}{subsection.191}%
+\contentsline {subsection}{\numberline {5.1.2}Model Execution and Performance}{75}{subsection.235}%
+\contentsline {subsection}{\numberline {5.1.3}Model Analysis}{77}{subsection.238}%
+\contentsline {subsection}{\numberline {5.1.4}Further Exploration}{77}{subsection.239}%
+\contentsline {section}{\numberline {5.2}Natural Language Toolkit - Class Imbalance}{80}{section.249}%
+\contentsline {subsection}{\numberline {5.2.1}Majority Class Under Sampling}{80}{subsection.250}%
+\contentsline {subsection}{\numberline {5.2.2}Minority Class Over Sampling}{81}{subsection.259}%
+\contentsline {subsection}{\numberline {5.2.3}Hybrid Approach}{83}{subsection.276}%
+\contentsline {subsection}{\numberline {5.2.4}Most Frequently Occurring Features}{85}{subsection.290}%
+\contentsline {section}{\numberline {5.3}Scikit-learn Modelling}{87}{section.309}%
+\contentsline {subsection}{\numberline {5.3.1}Model Development}{87}{subsection.310}%
+\contentsline {subsection}{\numberline {5.3.2}Model Execution and Performance}{89}{subsection.325}%
+\contentsline {subsection}{\numberline {5.3.3}Further Exploration}{90}{subsection.330}%
+\contentsline {section}{\numberline {5.4}Scikit-learn - Class Imbalance}{93}{section.342}%
+\contentsline {subsection}{\numberline {5.4.1}Pipeline and Grid Search}{93}{subsection.343}%
+\contentsline {subsection}{\numberline {5.4.2}Class Sampling}{95}{subsection.365}%
+\contentsline {section}{\numberline {5.5}Scikit-learn - Cost Sensitive Learning}{99}{section.369}%
+\contentsline {section}{\numberline {5.6}Choosing the Best Classifiers}{100}{section.372}%
+\contentsline {subsection}{\numberline {5.6.1}G-Performance}{100}{subsection.373}%
+\contentsline {subsection}{\numberline {5.6.2}Best Models}{101}{subsection.375}%
+\contentsline {subsection}{\numberline {5.6.3}Initial Models}{101}{subsection.376}%
+\contentsline {section}{\numberline {5.7}Applying the Best Classifiers}{103}{section.380}%
+\contentsline {subsection}{\numberline {5.7.1}Scenario Overview}{103}{subsection.381}%
+\contentsline {subsection}{\numberline {5.7.2}Data Preparation}{104}{subsection.382}%
+\contentsline {subsection}{\numberline {5.7.3}Initial Analysis}{104}{subsection.383}%
+\contentsline {subsection}{\numberline {5.7.4}Batch Processing of Samples}{107}{subsection.385}%
+\contentsline {subsection}{\numberline {5.7.5}Analysis of Batch Processing Results}{108}{subsection.386}%
+\contentsline {section}{\numberline {5.8}Summary and Conclusion}{112}{section.392}%
+\contentsline {chapter}{\numberline {6}Conclusions}{115}{chapter.393}%
+\contentsline {section}{\numberline {6.1}Summary of research activities}{116}{section.394}%
+\contentsline {section}{\numberline {6.2}Discussion}{118}{section.395}%
+\contentsline {section}{\numberline {6.3}Future Work}{119}{section.396}%
+\contentsline {section}{\numberline {6.4}Conclusion}{121}{section.397}%
+\vspace {2em}
+\contentsline {chapter}{\numberline {A}Selected Python Scripts}{122}{appendix.398}%
+\contentsline {section}{\numberline {A.1}Parse Raw HTML Files from Ask.fm}{122}{section.399}%
+\contentsline {section}{\numberline {A.2}Clean data}{125}{section.543}%
+\contentsline {section}{\numberline {A.3}Replacer helper class}{126}{section.621}%
+\contentsline {section}{\numberline {A.4}Simple NLTK Naive Bayes Classifier}{128}{section.753}%
+\contentsline {section}{\numberline {A.5}NLTK Naive Bayes Classifier with Feature Selection}{131}{section.887}%
+\contentsline {section}{\numberline {A.6}Simple Scikit-Learn Classifier}{132}{section.948}%
+\contentsline {section}{\numberline {A.7}Scikit-Learn Grid Search Example}{134}{section.1018}%
+\contentsline {section}{\numberline {A.8}Scikit-Learn Over Sampling Classifier}{136}{section.1126}%
+\contentsline {section}{\numberline {A.9}Scikit-Learn Simulation Sample Script}{138}{section.1236}%
+\contentsline {chapter}{\numberline {B}Novel Method to Choose the Best Classifiers}{141}{appendix.1400}%
+\contentsline {section}{\numberline {B.1}Choosing the Best Classifiers}{141}{section.1401}%
+\contentsline {subsection}{\numberline {B.1.1}G-Performance}{142}{subsection.1402}%
+\contentsline {subsection}{\numberline {B.1.2}Execution Time}{142}{subsection.1404}%
+\contentsline {subsection}{\numberline {B.1.3}Data Manipulation}{143}{subsection.1406}%
+\contentsline {subsection}{\numberline {B.1.4}Best Models}{144}{subsection.1409}%
+\contentsline {section}{\numberline {B.2}Applying the Best Classifiers}{145}{section.1414}%
+\contentsline {subsection}{\numberline {B.2.1}Scenario Overview}{145}{subsection.1415}%
+\contentsline {subsection}{\numberline {B.2.2}Data Preparation}{146}{subsection.1416}%
+\contentsline {subsection}{\numberline {B.2.3}Initial Analysis of Models}{146}{subsection.1417}%
+\contentsline {subsection}{\numberline {B.2.4}Batch Processing of Samples}{148}{subsection.1418}%
+\contentsline {subsection}{\numberline {B.2.5}Analysis of Batch Processing Results}{148}{subsection.1419}%
+\vspace {2em}
+\contentsline {chapter}{Bibliography}{152}{dummy.1423}%

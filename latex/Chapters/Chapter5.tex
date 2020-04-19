@@ -1,0 +1,31 @@
+% Chapter Template
+
+\chapter{Data Modelling} % Main chapter title
+
+\label{chapter5} 
+
+\lhead{Chapter 5. \emph{Data Modelling}} 
+
+The focus of this chapter is to describe the process to develop the best model for predicting whether a question from the Ask.fm website could be considered as either bullying or not bullying. The modelling approach is given, and it also highlights any alterations that were required to be made to this initial plan. However, before going into the detail of the modelling approach there is a brief refresher of the data available and its structure.
+
+At the completion of Chapter \ref{chapter4}, where the data extracted from the Ask.fm website was explored and processed, a number of datasets were now available for modelling. In total seven datasets were generated:
+
+\begin{enumerate}
+
+	\item The original raw question data as extracted from Ask.fm [dataset 00]
+	\item The cleaned version of the original dataset [dataset 01] (considered the primary dataset)
+	\item Bi-grams created from the cleaned dataset [dataset 02]
+	\item Tri-grams created from the cleaned dataset [dataset 03]
+	\item The cleaned dataset with all NLKT stop words removed [dataset 11]
+	\item Bi-grams created from the cleaned dataset with all NLKT stop words removed [dataset 12]
+	\item Tri-grams created from the cleaned dataset with all NLKT stop words removed [dataset 13]
+
+\end{enumerate}
+
+All seven datasets were written to the NLTK data folder as separate corpora. 
+
+A description of the initial first modelling attempts using the Natural Language Toolkit (NLTK) are given in Section \ref{subsection:nltk-initial_modelling}. Here a Naive Bayes classifier is used to gain insight into the potential predictive performance of a model when classifying the text. As well as examining the performance of each of the datasets generated in Chapter \ref{chapter4}, this section also analyses whether the N-gram generation and stop word removal functionality natively available in the NLTK performs any better or worse. 
+
+Next, in Section \ref{subsection:nltk-class_imbalance}, ways to address the minority positive class and majority negative class imbalance are explored. Techniques utilised include under sampling of the majority class, over sampling of the minority class and a hybrid approach that uses both under and over sampling. Also explored is whether only selecting a percentage of the most frequently occurring tokens in each class makes a difference to the performance of any models generated. Once again a basic NLTK Naive Bayes model is applied.
+
+Sections \ref{subsection:scikit-learn} and \ref{subsection:scikit-class-imbalance} then repeat the modelling processes undertaken in Sections \ref{subsection:nltk-initial_modelling} and \ref{subsection:nltk-class_imbalance} but using the Scikit-Learn Python libraries. In these sections a Linear Support Vector classifier is used in addition to a Naive Bayes. Section \ref{subsection:scikit-learn-cost} investigates the possible use of a cost sensitive approach to modelling before the best models developed are identified in Section \ref{subsection:best-classifiers}. Finally in Section \ref{subsection:applying-classifiers} the three best models identified are further tested using previously unseen data. Using the top three models a hold back dataset is classified. The models then evolve using a third dataset and the hold back dataset is classified and the results analysed.

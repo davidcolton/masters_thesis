@@ -1,0 +1,15 @@
+\section{Summary and Conclusion}
+\label{section:summary_conclusion}
+
+This chapter focused on the data. In the next chapter this data will be mined to develop a model to classify a question as either bullying or not bullying. 
+
+In Section \ref{section:data_extraction} an overview of how the data was obtained from the Ask.fm site was given. A sample block of data, the question, answer and other meta data was shown and explained. The criteria used to determine which data was to be scraped, and the method used to extract it, was given. The data was then obtained over a twenty-four hour period in an attempt to make sure that the users from which the data was scraped covered as many geographical areas as possible and were not, for example, all from a single time zone. Upon completion of this task 110,000 data examples had been obtained.
+
+Section \ref{section:initial_processing} described how the raw data extracted from the Ask.fm website was transformed into text more suitable for text mining. The original HTML format of the data was given and then the Python used to transform this into text was detailed. The Python \verb|glob| and \verb|os| packages were used to access the HTML files and Beautiful Soup, a Python library for parsing HTML documents, was used to parse these files so that the individual data elements described could be extracted. In total seven attributes were extracted per record. The data was loaded into a MySQL database. To complete the preprocessing the data was divided into three separate groups.  10\% for classification and model training and test, 80\% to simulate a stream of data arriving at the ask.fm website and a final block of 10\% for validation purposes. 
+
+Section \ref{section:data_classification} gave an overview of the process used in the classification of each question as being either bullying or not bullying and also included detailed descriptions of the various types and categories of cyberbullying to be identified. Samples of some of the questions classified as bullying were also shown. Just under 11,000 sample questions were classified.
+
+In Section \ref{section:data_exploration} a more detailed description of the data was given. It was noted that the structure of the data is relatively simple. Next some data quality issues were highlighted including non ASCII characters, slang words, abbreviations, repeated characters and emoticons. The section also included a detailed exploration of the dataset and also some word cloud visualisations and word, or token, frequency analysis.
+
+In the final section, Section \ref{section:data_prepatation}, the data underwent a series of transformations in order to clean the data in preparation for modelling. As before Python was used to process the text of the dataset and in all eight cleansing steps were performed. The data was then written out to  files in NLTK corpora format.
+

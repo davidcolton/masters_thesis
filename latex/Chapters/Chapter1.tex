@@ -1,0 +1,83 @@
+% Chapter Template
+
+\chapter{Introduction} % Main chapter title
+
+\label{chapter1} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+
+\lhead{Chapter 1. \emph{Introduction}} % Change X to a consecutive number; this is for the header on each page - perhaps a shortened title
+
+\begin{quotation}
+``Bullying is any unwanted aggressive behaviour(s) by another youth or group of youths who are not siblings or current dating partners that involves an observed or perceived power imbalance and is repeated multiple times or is highly likely to be repeated. Bullying may inflict harm or distress on the targeted youth including physical, psychological, social, or educational harm.'' \\ 
+\citet{assistant_secretary_for_public_affairs_what_2014}.
+\end{quotation}
+
+\begin{quotation}
+``Cyberbullying is bullying that takes place using electronic technology. Electronic technology includes devices and equipment such as cell phones, computers, and tablets as well as communication tools including social media sites, text messages, chat, and websites.
+
+Examples of cyberbullying include mean text messages or emails, rumours sent by email or posted on social networking sites, and embarrassing pictures, videos, websites, or fake profiles.'' \\ 
+\citet{assistant_secretary_for_public_affairs_what_2012}.
+\end{quotation}
+
+Bullying is not something new, some people might even consider it a rite of passage having either experienced it when growing up or knowing someone who was bullied in school or at work or when out playing or socialising with friends. Traditional bullying, though never a pleasant experience, can only be inflicted on the victim face to face. By steering clear of the bully, or by leaving the environment where the bullying was happening, the intended victim could avoid the pain and suffering imposed on them. Now, however, with the advent of instant messaging and social media, the bully has moved on-line with twenty-four hour access to their victims. This new on-line bullying is known as cyberbullying and, unfortunately, its sometimes tragic consequences are plain to see with headlines like ``Third suicide in weeks linked to cyberbullying''\cite{Cionnaith:2102}, ``Cyberbullies claimed lives of Five teens''\cite{Riegel:2013} and ``Hanna Smith suicide fuels calls for action on Ask.fm cyberbullying''\cite{laura_smith-spark_hanna_2013} becoming an all too depressingly frequent occurrence.
+
+Recent surveys have shown that the number of young children and teenagers who have access to the internet has soared. In September 2012 the Pew Research Center, a non-partisan American think tank based in Washington, D.C, found that 95\% of all North American children and young adults aged between 12 and 19 had access to the internet and that 74\% had access either through a smart phone or tablet \cite{teens-fact-sheet}. In Europe a similar picture was painted by the 2012 Eurostat Internet use in households and individuals report \cite{seybert_internet_2012}, where it is reported that 93\% of people aged 16 - 24 were regular users of the internet and that of these nearly 60\% used the internet on the move accessing it either through smart phones or through portable computers such as laptops, notebooks or tablets. 
+
+When accessing the internet the Eurostat reports states that over 90\% of 16-24 year olds use it to send and receive emails and 85\% use it for posting messages to, and reading messages from, social media sites \cite{seybert_internet_2012}. In North America, it is reported that 81\% of teens use social media of some kind but that texting is still prominent with 63\% saying they use texting to communicate with each other everyday \cite{teens-fact-sheet}. In what the authors refer to as ``The increasing privatisation of internet use'' \citet{mascheroni_net_2014} show that 55\% of European children surveyed, aged from 9 to 16 years old, access the internet several times a day from a private location such as their bedroom and that the use of smart phones and tablets increases as the child grows leading to challenges for parents attempting to monitor and mediate internet use. It was also seen that teens are sharing more private and personal information about themselves \cite{teens-fact-sheet}. Information such as their real name, date of birth, the town where they live, the school they attend and photographs of themselves and their friends.
+
+In the 2014 Annual Bullying survey conducted by a prominent anti-bullying charity Ditch The Label, 45\% of the  respondents said they had experienced bullying of any sort and 55\% of these said that they had experienced cyberbullying \cite{ditch:2014}. Another report found that 88\% of social media using teens had witnessed other users being targeted by cruel or mean comments and that 67\% also witnessed other users joining in with the harassment. 15\% of users reported that they also had been harassed \cite{lenhart_teens_2011}. The same report also found that 41\% of teens reported some negative outcomes resulting directly from their social media use including face to face confrontations that sometimes escalate to physical fights, stains placed on friendships and problems with parents or school. Some teens reported been nervous about going to school because of a social media incident. 
+
+Cyberbullying can negatively impact the quality of a teenagers life in many different ways. The victim of bullying can suffer physical stress and a range of emotional feelings including humiliation, isolation, powerlessness, feeling overwhelmed, depressed and even suicidal thoughts. These are feelings that the youth may not be emotionally mature enough to handle. This emotional turmoil can lead to a loss of appetite and an inability to sleep which can cause other more serious health problems. The perpetrator of the bullying could also be a victim of bullying or abuse, and their actions are a backlash against others for what they have experienced. However, it left unchecked, this bullying behaviour could escalate into other antisocial, abusive or criminal activities. By detecting and identifying the bully, intervention may be possible.
+
+When considering cyberbullying and the identification of cyberbullying content, there are two distinct properties to consider. The act of posting a cyberbullying message and the content of the message. The act or delivery of a cyberbullying post can come in many different forms including flaming, exclusion, outing, flooding and masquerading to name a few. Because cyberbullying is often anonymous it is difficult to automatically detect these types of actions. However, the content of a cyberbullying post is a rich textual goldmine where the cruelty of intention, the insidious and harmful nature of the bullying or the hurtful and antagonising tone is plain to see. The content could be overtly sexual or a sexist attack against a persons sexual orientation, racially demeaning or disparaging against a persons race, nationality or skin colour, directly attack a persons appearance, weight or intelligence of their socio-economic status. Cyberstalking and grooming can both also be considered under the cyberbullying umbrella.
+
+\section{Thesis Research Question}
+
+The research question of this thesis is whether standard data mining techniques, for example n-grams, stop word removal, feature selection, term frequency inverse document frequency word vectors, can be used to develop a classifier in Python which can be used to predict whether or not unseen samples are bullying in nature.
+
+
+\section{Objectives}
+
+The primary objective of this thesis is to develop a model using Python that can be used to determine if samples from an unseen dataset should be classified as bullying in nature or classified as not bullying. To meet this objective the following data mining milestones must be achieved:
+
+\begin{itemize}
+
+	\item \textbf{Construct a new cyberbullying dataset} \\
+	The first objective is to create a new dataset for use in the development of a cyberbullying classifier. As will be seen in Chapter \ref{chapter3} the lack of standard cyberbullying dataset for use in a project like this is well lamented. In \citet{colton:2014} it was shown that there was good evidence of cyberbullying on the Ask.fm social networking site so using data scraped from this site a second, more recent, cyberbullying dataset will be generated. 
+	
+	\item \textbf{Classify the new cyberbullying dataset} \\
+	Once the raw data is sourced it will be manually classified. The criteria to determine whether a sample should be classified as bullying or not will be documented. Once these criteria are understood a classified dataset, that can be used in the development of a classifier, will be generated by manually classifying each of the samples in the dataset.
+	
+	\item \textbf{Develop multiple classifiers} \\
+	Multiple different classifiers will be developed using standard text mining techniques such as n-grams, stop word removal, feature selection and term frequency inverse document frequency word vectors. Naive Bayes and Support Vector Machine learner algorithms will be used. 
+	
+	\item \textbf{Address class imbalance} \\
+	As seen in \citet{colton:2014} it is expected that there will be a significant class imbalance between the positive bullying class and the negative not bullying class. To address this class imbalance over, under and hybrid sampling will be explored in addition to investigating cost based classifiers.
+	
+	\item \textbf{Identify the top classifiers} \\
+	Once modelling has been completed the top models developed will be identified using each models g-performance.
+	
+	\item \textbf{Evaluate top classifiers to determine the best} \\
+	Once the top classifier models are identified each will be further evaluated with previously unseen samples in order to determine which classifier generalises best to new data. This testing attempts to simulate a real life scenario by iteratively classifying previously unseen samples before appending these newly classified records to the master training dataset. The model is then regenerated including these newly classified records before more unseen samples are classified. This process of classify, append, regenerate is repeated multiple times. 
+
+\end{itemize}
+  
+
+\section{Thesis Structure}
+
+\textbf{\textit{Chapter \ref{chapter2} Background and Tooling:}} This chapter gives a brief introduction to the tools and concepts used in this research. It also provides an overview of the Ask.fm website where the sample data was sourced.
+
+\textbf{\textit{Chapter \ref{chapter3} Literature Review:}} This chapter provides a critical analysis of research previously undertaken on the specific topics related to this dissertation. It identifies both relevant information and outlines existing knowledge in each of the areas.
+
+\textbf{\textit{Chapter \ref{chapter4} Background and Tooling:}} This chapter introduces the dataset used in this research. The goal of this chapter is to outline the steps undertaken to transform the raw HTML, scraped from the Ask.fm website, into a dataset that is a suitable starting point for this text mining project. From the initial processing and data analysis steps, through to the final data cleansing steps, the progression from unstructured data into structured text is shown.
+
+\textbf{\textit{Chapter \ref{chapter5} Data Modelling:}} The focus of this chapter is to describe the process followed to develop the best classifier model for predicting whether a question from the Ask.fm website is either bullying or not bullying. When a number of promising models have been developed, their performance is analysed with the top five chosen for further testing. Before going into the detail of the modelling approach there is a brief refresher of the available data and it structure.
+
+\textbf{\textit{Chapter \ref{chapter6} Conclusion:}} In the final chapter the objectives, the achievements and conclusions of the thesis are discussed including suggestions for future work.
+
+
+
+
+
+
+
+

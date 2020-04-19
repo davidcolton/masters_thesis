@@ -1,0 +1,32 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Description of raw\_data table}}{47}{table.caption.134}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Bullying questions that are not anonymous}}{51}{table.caption.140}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Distinct word counts}}{52}{table.caption.142}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Distinct word counts, no stop words}}{53}{table.caption.143}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Distinct bi-gram word counts}}{54}{table.caption.144}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Distinct tri-gram word counts}}{55}{table.caption.145}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces Unique tokens, total count and average frequency}}{56}{table.caption.146}%
+\contentsline {table}{\numberline {4.8}{\ignorespaces Distinct n-gram word counts (cleaned datasets)}}{66}{table.caption.174}%
+\contentsline {table}{\numberline {4.9}{\ignorespaces Unique tokens, total count and average frequency (cleaned datasets)}}{67}{table.caption.175}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces N-gram generation increases execution time}}{78}{table.caption.246}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Most informative feature comparison}}{79}{table.caption.248}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Performance comparison of over sampling and hybrid sampling}}{86}{table.caption.289}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces Confusion matrices from the initial Scikit-Learn Naive Bayes model}}{90}{table.caption.327}%
+\contentsline {table}{\numberline {5.5}{\ignorespaces Confusion matrices from the initial Scikit Support Vector model}}{90}{table.caption.328}%
+\contentsline {table}{\numberline {5.6}{\ignorespaces Grid search performance and confusion matrix comparison}}{96}{table.caption.364}%
+\contentsline {table}{\numberline {5.7}{\ignorespaces Performance comparison of over sampling and hybrid sampling}}{97}{table.caption.367}%
+\contentsline {table}{\numberline {5.8}{\ignorespaces Sampling parameter values returned by grid search}}{99}{table.caption.368}%
+\contentsline {table}{\numberline {5.9}{\ignorespaces Top performing NLTK over sampling models}}{102}{table.caption.377}%
+\contentsline {table}{\numberline {5.10}{\ignorespaces Top performing NLTK hybrid sampling models}}{102}{table.caption.378}%
+\contentsline {table}{\numberline {5.11}{\ignorespaces Top performing Scikit-Learn models}}{103}{table.caption.379}%
+\contentsline {table}{\numberline {5.12}{\ignorespaces Simple performance measurement of top 24 models}}{105}{table.caption.384}%
+\contentsline {table}{\numberline {5.13}{\ignorespaces NLTK Models, analysis of samples predicted}}{108}{table.caption.387}%
+\contentsline {table}{\numberline {5.14}{\ignorespaces Scikit-Learn Models, analysis of samples predicted}}{109}{table.caption.388}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {B.1}{\ignorespaces Penalties assigned for sampling}}{144}{table.caption.1407}%

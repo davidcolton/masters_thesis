@@ -1,0 +1,126 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: CyberbullyingDetection.aux
+The style file: unsrtnat.bst
+Database file #1: Bibliography.bib
+Warning--entry type for "teens-fact-sheet" isn't style-file defined
+--line 15 of file Bibliography.bib
+Warning--entry type for "nltk" isn't style-file defined
+--line 35 of file Bibliography.bib
+Warning--entry type for "python" isn't style-file defined
+--line 43 of file Bibliography.bib
+Warning--entry type for "google_python" isn't style-file defined
+--line 53 of file Bibliography.bib
+Warning--entry type for "Cionnaith:2102" isn't style-file defined
+--line 66 of file Bibliography.bib
+Warning--entry type for "Riegel:2013" isn't style-file defined
+--line 77 of file Bibliography.bib
+Warning--entry type for "DOH" isn't style-file defined
+--line 89 of file Bibliography.bib
+Warning--entry type for "Webwise:2103" isn't style-file defined
+--line 125 of file Bibliography.bib
+Warning--entry type for "askfm_a:2014" isn't style-file defined
+--line 134 of file Bibliography.bib
+Warning--entry type for "askfm_b:2014" isn't style-file defined
+--line 143 of file Bibliography.bib
+Warning--entry type for "askfm_c:2014" isn't style-file defined
+--line 152 of file Bibliography.bib
+Warning--entry type for "askfm_d:2014" isn't style-file defined
+--line 161 of file Bibliography.bib
+Warning--entry type for "askfm_e:2014" isn't style-file defined
+--line 170 of file Bibliography.bib
+Warning--entry type for "askfm_f:2014" isn't style-file defined
+--line 179 of file Bibliography.bib
+Warning--entry type for "askfm_g:2014" isn't style-file defined
+--line 188 of file Bibliography.bib
+Warning--entry type for "askfm_h:2014" isn't style-file defined
+--line 197 of file Bibliography.bib
+Warning--entry type for "seybert_internet_2012" isn't style-file defined
+--line 387 of file Bibliography.bib
+Warning--entry type for "lenhart_teens_2011" isn't style-file defined
+--line 444 of file Bibliography.bib
+Warning--entry type for "rulequest_research_data_2013" isn't style-file defined
+--line 581 of file Bibliography.bib
+Warning--entry type for "willard_cyberbullying_2006" isn't style-file defined
+--line 652 of file Bibliography.bib
+Warning--entry type for "laura_smith-spark_hanna_2013" isn't style-file defined
+--line 707 of file Bibliography.bib
+Warning--entry type for "dadvar_improved_2012" isn't style-file defined
+--line 795 of file Bibliography.bib
+Warning--entry type for "assistant_secretary_for_public_affairs_what_2012" isn't style-file defined
+--line 814 of file Bibliography.bib
+Warning--entry type for "mascheroni_net_2014" isn't style-file defined
+--line 872 of file Bibliography.bib
+Warning--entry type for "_perverted-justice.com_????" isn't style-file defined
+--line 993 of file Bibliography.bib
+Warning--entry type for "assistant_secretary_for_public_affairs_what_2014" isn't style-file defined
+--line 1070 of file Bibliography.bib
+Warning--empty year in teens-fact-sheet
+Warning--empty journal in ditch:2014
+Warning--empty year in google_python
+Warning--empty year in python
+Warning--empty year in nltk
+Warning--empty journal in miller_wordnet:_1995
+Warning--empty booktitle in nahar_step_2013
+Warning--empty journal in archer_integrated_2005
+Warning--empty journal in little_disentangling_2003
+Warning--empty journal in nylund_subtypes_2007
+Warning--empty journal in nahar_effective_2013
+Warning--empty journal in dinakar_common_2012
+Warning--empty booktitle in chen_detecting_2012
+Warning--empty journal in ptaszynski_michal_machine_2010
+Warning--empty journal in oneill_cyberbullying_2013
+Warning--empty booktitle in yin_detection_2009
+Warning--empty publisher in fundacion_barcelona_media_fbm_caw_2009
+Warning--empty journal in lovins_development_1968
+Warning--empty journal in ortony_referential_1987
+Warning--empty journal in hall_weka_2009
+Warning--empty year in _perverted-justice.com_????
+Warning--empty journal in griffiths_finding_2004
+Warning--empty journal in argamon_gender_2003
+Warning--empty journal in chisholm_cyberspace_2006
+Warning--empty journal in sang-hun_south_2012
+Warning--empty journal in chawla_smote:_2002
+Warning--empty journal in Garcia:2007
+You've used 81 entries,
+            2481 wiz_defined-function locations,
+            1042 strings with 21853 characters,
+and the built_in function-call counts, 31851 in all, are:
+= -- 2800
+> -- 1419
+< -- 70
++ -- 585
+- -- 415
+* -- 2096
+:= -- 4810
+add.period$ -- 333
+call.type$ -- 81
+change.case$ -- 153
+chr.to.int$ -- 73
+cite$ -- 111
+duplicate$ -- 1754
+empty$ -- 2993
+format.name$ -- 515
+if$ -- 7126
+int.to.chr$ -- 9
+int.to.str$ -- 82
+missing$ -- 64
+newline$ -- 490
+num.names$ -- 242
+pop$ -- 834
+preamble$ -- 1
+purify$ -- 81
+quote$ -- 0
+skip$ -- 1248
+stack$ -- 0
+substring$ -- 1042
+swap$ -- 455
+text.length$ -- 25
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 540
+warning$ -- 27
+while$ -- 212
+width$ -- 0
+write$ -- 1165
+(There were 53 warnings)

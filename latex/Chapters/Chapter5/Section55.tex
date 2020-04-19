@@ -1,0 +1,18 @@
+\section{Scikit-learn - Cost Sensitive Learning}
+\label{subsection:scikit-learn-cost}
+
+Having looked at under, over and hybrid sampling methods attention now turns towards a cost sensitive learning approach. Cost sensitive learning is considered an algorithmic solution to class imbalance where there is a cost involved in predicting either a false positive or false negative, with no cost for predicting a true positive or true negative. False positives and false negatives can also be treated, costed, differently as well. Consider a cancer diagnoses, for example. It is better to predict a false positive and have the patient undergo further testing to discover they are free from cancer rather than predict a false negative where the patient receives no further tests or treatment which could have grave implications.
+
+Unfortunately, Scikit-Learn does not have a true cost sensitive implementation analogous to the MetaCost algorithm implemented in Weka though some classifiers do offer \verb|class_weight| and \verb|C| parameters, which are optimized implementations of over sampling and under sampling \cite{scikit-learn}. 
+
+\begin{enumerate}
+
+	\item \textbf{C}: float, optional (default=1.0) \\
+	Parameter that tells the learner how much to avoid misclassifying each training example. Larger values of \verb|C| will cause a smaller margin hyperplane to be chosen while a small value will increase the size of the hyperplane thus increasing the risk of misclassification.
+	
+	\item \textbf{class\_weight}: \{dict, ‘auto’\}, optional \\
+	Set the parameter C of class i to class\_weight[i]*C for SVC. If not given, all classes are supposed to have weight one. The ‘auto’ mode uses the values of y to automatically adjust weights inversely proportional to class frequencies.
+	
+\end{enumerate}
+
+It was hoped to evaluate the C Support Vector Classification learner in addition to the Linear Support Vector classifier already examined. However, the results returned were either disappointing or the learner proved impossible to fine tune either returning all positive or all negative predictions when training. 

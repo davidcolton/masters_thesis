@@ -1,0 +1,406 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Masters/Doctoral Thesis 
+% LaTeX Template
+% Version 1.42 (19/1/14)
+%
+% This template has been downloaded from:
+% http://www.latextemplates.com
+%
+% Original authors:
+% Steven Gunn 
+% http://users.ecs.soton.ac.uk/srg/softwaretools/document/templates/
+% and
+% Sunil Patel
+% http://www.sunilpatel.co.uk/thesis-template/
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Note:
+% Make sure to edit document variables in the Thesis.cls file
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+% Paper size, default font size and one-sided paper
+\documentclass[11pt, a4paper, oneside]{Thesis} 
+
+% Specifies the directory where pictures are stored
+\graphicspath{{Pictures/}} 
+
+% Use the natbib reference package - read up on this to edit the reference style
+\usepackage[square, numbers, comma, sort&compress]{natbib} 
+
+\usepackage{microtype}
+\DisableLigatures{encoding=*,family=*}
+
+\usepackage{hyperref}
+
+\usepackage{color}
+% Colors hyperlinks in blue - change to black if annoying
+\hypersetup{urlcolor=black, 
+	linkcolor=black, 
+	citecolor=black,
+	colorlinks=true} 
+
+
+\usepackage{colortbl}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+
+\usepackage{listings}
+\usepackage{setspace}
+\usepackage{siunitx}
+
+
+\definecolor{Code}{rgb}{0,0,0}
+\definecolor{Decorators}{rgb}{0.5,0.5,0.5}
+\definecolor{Numbers}{rgb}{0.5,0,0}
+\definecolor{MatchingBrackets}{rgb}{0.25,0.5,0.5}
+\definecolor{Keywords}{rgb}{0,0,1}
+\definecolor{self}{rgb}{0,0,0}
+\definecolor{Strings}{rgb}{0,0.63,0}
+\definecolor{Comments}{rgb}{0,0.63,1}
+\definecolor{Backquotes}{rgb}{0,0,0}
+\definecolor{Classname}{rgb}{0,0,0}
+\definecolor{FunctionName}{rgb}{0,0,0}
+\definecolor{Operators}{rgb}{0,0,0}
+\definecolor{Background}{rgb}{0.98,0.98,0.98}
+
+\lstset{
+numbers=left,
+numberstyle=\footnotesize,
+numbersep=1em,
+xleftmargin=1em,
+framextopmargin=2em,
+framexbottommargin=2em,
+showspaces=false,
+showtabs=false,
+showstringspaces=false,
+frame=l,
+tabsize=4,
+% Basic
+basicstyle=\ttfamily\small\setstretch{1.0},
+backgroundcolor=\color{Background},
+language=Python,
+% Comments
+commentstyle=\color{Comments}\slshape,
+% Strings
+stringstyle=\color{Strings},
+morecomment=[s][\color{Strings}]{"""}{"""},
+morecomment=[s][\color{Strings}]{'''}{'''},
+% keywords
+morekeywords={import,from,class,def,for,while,if,is,in,elif,else,not,and,or,print,break,continue,return,True,False,None,access,as,,del,except,exec,finally,global,import,lambda,pass,print,raise,try,assert,split,find,strip,get_text},
+keywordstyle={\color{Keywords}\bfseries},
+% additional keywords
+morekeywords={[2]@invariant},
+keywordstyle={[2]\color{Decorators}\slshape},
+emph={self},
+emphstyle={\color{self}\slshape},
+captionpos=top
+%
+}
+
+\usepackage{caption}
+\DeclareCaptionFont{white}{\color{white}}
+\DeclareCaptionFormat{listing}{\colorbox[cmyk]{0.43, 0.35, 0.35,0.01}{\parbox{\textwidth}{\hspace{15pt}#1#2#3}}}
+\captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white, singlelinecheck=false, margin=0pt, font={bf,footnotesize}}
+
+
+\usepackage{booktabs}
+
+\usepackage{spverbatim}
+
+% Defines the thesis title - don't touch this
+\title{\ttitle} 
+
+\begin{document}
+
+% Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
+\frontmatter 
+
+\setstretch{1.5} % Line spacing of 1.5
+
+% Define the page headers using the FancyHdr package and set up for one-sided printing
+% Clears all page headers and footers
+\fancyhead{} 
+% Sets the right side header to show the page number
+\rhead{\thepage} 
+% Clears the left side page header
+\lhead{} 
+
+% Finally, use the "fancy" page style to implement the FancyHdr headers
+\pagestyle{fancy} 
+
+% New command to make the lines in the title page
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} 
+
+% PDF meta-data
+\hypersetup{pdftitle={\ttitle}}
+\hypersetup{pdfsubject=\subjectname}
+\hypersetup{pdfauthor=\authornames}
+\hypersetup{pdfkeywords=\keywordnames}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{titlepage}
+\begin{center}
+
+% University name
+\textsc{\LARGE \univname}\\[1.5cm] 
+% Thesis type
+\textsc{\Large Masters Thesis}\\[0.5cm] 
+
+% Horizontal line
+\HRule \\[0.4cm] 
+
+% Thesis title
+{\huge \bfseries \ttitle}\\[0.4cm] 
+
+% Horizontal line
+\HRule \\[1.5cm] 
+ 
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Author:}\\
+% Author name - remove the \href bracket to remove the link
+{\authornames} 
+\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Supervisor:} \\
+% Supervisor name - remove the \href bracket to remove the link
+{\supname}   
+\end{flushright}
+\end{minipage}\\[3cm]
+ 
+% University requirement text
+\large \textit{A thesis submitted in partial fulfilment of the requirements\\ for the degree of \degreename}\\[0.3cm] 
+\textit{at}\\[0.4cm]
+
+% Research group name and department name
+\univname\\\addressnames\\[2cm] 
+ 
+% Date
+{\large \today}\\[4cm] 
+
+% University/department logo - uncomment to place it
+%\includegraphics{Logo} 
+ 
+\vfill
+\end{center}
+\end{titlepage}
+
+
+%----------------------------------------------------------------------------------------
+%	DECLARATION PAGE
+%	Your institution may give you a different text to place here
+%----------------------------------------------------------------------------------------
+
+\Declaration{
+
+% Add a gap in the Contents, for aesthetics
+\addtocontents{toc}{\vspace{1em}} 
+
+I hereby certify that this material, which I now submit for assessment on the programme of study leading to the award of \textbf{M.Sc. in Computing} in the Institute of Technology Blanchardstown, is entirely my own work except where otherwise stated, and has not been submitted for assessment for an academic purpose at this or any other academic institution other than in partial fulfilment of the requirements of that stated above. \\
+
+Signed [David Colton]: \\
+
+% This prints a line for the signature
+\rule[1em]{30em}{0.5pt} 
+
+
+Date:\\
+
+% This prints a line to write the date
+\rule[1em]{30em}{0.5pt} 
+}
+
+%\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	QUOTATION PAGE
+%----------------------------------------------------------------------------------------
+
+%\pagestyle{empty} % No headers or footers for the following pages
+
+%\null\vfill % Add some space to move the quote down the page a bit
+
+%\textit{``Need a good quote to go here ...!"}
+
+%\begin{flushright}
+%Dave Barry
+%\end{flushright}
+
+%\vfill\vfill\vfill\vfill\vfill\vfill\null % Add some space at the bottom to position the quote just right
+
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT PAGE
+%----------------------------------------------------------------------------------------
+
+% Add the "Abstract" page entry to the Contents
+\addtotoc{Abstract} 
+
+% Add a gap in the Contents, for aesthetics
+\abstract{\addtocontents{toc}{\vspace{1em}} 
+The internet technology boom has led to a proliferation of tablets, laptops and smart phones with high-speed internet access. This access, coupled with the advent of instant messaging, chat rooms and social media websites, has led to an internet generation who think nothing of posting selfies, mood updates, their relationship status or anything about their life on-line. The traditional bully was the kid in school, or office worker, who got pleasure from watching their victims suffer as they verbally abused them or perhaps made fun of them or maybe even threatened them with violence. At least the victim knew who the bully was and, although not a solution, could plan their day to avoid crossing paths with the bully and having to suffer further torment. However, the bully has also moved on-line. This cyberbully now has twenty-four hour access to a potentially unlimited number of victims. Through their mean and harassing posts and comments the consequences of their cyberbullying activity is too often read about in the papers following another tragic teen suicide. To prevent this new form of bullying, it is important that technology is used to detect these cyberbullying posts.
+
+This dissertation shows that Python, together with the application of text mining techniques, can be successfully used in the automatic detection of cyberbullying text. The contributions of this paper are many. To begin, a comprehensive literature review of the current trends in cyberbullying detection is provided. A new classified cyberbullying dataset, including detailed descriptions of the criteria used in its classification, is generated. An in-depth analysis of several classifiers, including multiple approaches to tackle class imbalance, is undertaken before a novel way of determining the best overall classifier using the recall values of both the positive and negative class in addition to considering the execution time of the model and penalising any data manipulation performed when tackling class imbalance is suggested. Finally, an evaluation of the best models is performed by simulating their evolution as new, previously unseen, samples are classified and then included as training data for subsequent iterations.}
+
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	ACKNOWLEDGEMENTS
+%----------------------------------------------------------------------------------------
+
+% Reset the line-spacing to 1.3 for body text (if it has changed)
+\setstretch{1.3} 
+
+% Add a gap in the Contents, for aesthetics
+\acknowledgements{\addtocontents{toc}{\vspace{1em}} 
+
+\begin{quote}
+ “The only people with whom you should try to get even are those who have helped you.”
+
+ \em John E. Southard
+
+\end{quote}
+
+Niamh, Emma, Saoirse and Eva. Without your help, patience and the time you gave me, this masters would not have been possible. Time to get even.
+
+\begin{quote}
+"Some people talk in their sleep. \\
+Lecturers talk while other people sleep."
+
+ \em Albert Camus
+\end{quote}
+
+I'm very happy to say that this was not something that afflicted me over the last two years while completing this masters degree programme. First, a special thank you to Dr. Markus Hofmann who acted as my supervisor on this dissertation. This paper would not be what it is today without his thoughts and guidance from when the first green shoot of this work started showing, right up to the end. I must thank Geraldine Grey, Laura Keyes and Markus for their enthusiasm and passion for the subjects covered. 
+
+}
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	LIST OF CONTENTS/FIGURES/TABLES PAGES
+%----------------------------------------------------------------------------------------
+
+\pagestyle{fancy} % The page style headers have been "empty" all this time, now use the "fancy" headers as defined before to bring them back
+
+\lhead{\emph{Contents}} % Set the left side page header to "Contents"
+\tableofcontents % Write out the Table of Contents
+
+\lhead{\emph{List of Figures}} % Set the left side page header to "List of Figures"
+\listoffigures % Write out the List of Figures
+
+\lhead{\emph{List of Tables}} % Set the left side page header to "List of Tables"
+\listoftables % Write out the List of Tables
+
+%----------------------------------------------------------------------------------------
+%	DEDICATION
+%----------------------------------------------------------------------------------------
+
+\setstretch{1.3} % Return the line spacing back to 1.3
+
+\pagestyle{empty} % Page style needs to be empty for this page
+
+\dedicatory{For Niamh, Emma, Saoirse and Eva} % Dedication text
+
+\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - CHAPTERS
+%----------------------------------------------------------------------------------------
+
+\mainmatter % Begin numeric (1,2,3...) page numbering
+
+\pagestyle{fancy} % Return the page headers back to the "fancy" style
+
+% Include the chapters of the thesis as separate files from the Chapters folder
+% Uncomment the lines as you write the chapters
+
+\input{Chapters/Chapter1}
+
+%-------------------------------------
+%	CHAPTER 2
+%-------------------------------------
+\input{Chapters/Chapter2} 
+\input{Chapters/Chapter2/Section21}
+\input{Chapters/Chapter2/Section22}
+\input{Chapters/Chapter2/Section23}
+
+%-------------------------------------
+%	CHAPTER 3
+%-------------------------------------
+\input{Chapters/Chapter3} 
+\input{Chapters/Chapter3/Section31}
+\input{Chapters/Chapter3/Section32}
+\input{Chapters/Chapter3/Section33}
+
+%-------------------------------------
+%	CHAPTER 4
+%-------------------------------------
+\input{Chapters/Chapter4} 
+\input{Chapters/Chapter4/Section41}
+\input{Chapters/Chapter4/Section42}
+\input{Chapters/Chapter4/Section43}
+\input{Chapters/Chapter4/Section44}
+\input{Chapters/Chapter4/Section45}
+\input{Chapters/Chapter4/Section46}
+
+%-------------------------------------
+%	CHAPTER 5
+%-------------------------------------
+\input{Chapters/Chapter5} 
+\input{Chapters/Chapter5/Section51}
+\input{Chapters/Chapter5/Section52}
+\input{Chapters/Chapter5/Section53}
+\input{Chapters/Chapter5/Section54}
+\input{Chapters/Chapter5/Section55}
+\input{Chapters/Chapter5/Section56}
+\input{Chapters/Chapter5/Section57}
+\input{Chapters/Chapter5/Section58}
+
+\input{Chapters/Chapter6} 
+
+% \input{Chapters/Chapter7} 
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - APPENDICES
+%----------------------------------------------------------------------------------------
+
+% Add a gap in the Contents, for aesthetics
+\addtocontents{toc}{\vspace{2em}} 
+
+% Cue to tell LaTeX that the following 'chapters' are Appendices
+\appendix 
+
+% Include the appendices of the thesis as separate files from the Appendices folder
+% Uncomment the lines as you write the Appendices
+
+\input{Appendices/AppendixA}
+\input{Appendices/AppendixB}
+% \input{Appendices/AppendixC}
+
+\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+\backmatter
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+\label{Bibliography}
+
+\lhead{\emph{Bibliography}} % Change the page header to say "Bibliography"
+
+\bibliographystyle{unsrtnat} % Use the "unsrtnat" BibTeX style for formatting the Bibliography
+
+\bibliography{Bibliography} % The references (bibliography) information are stored in the file named "Bibliography.bib"
+
+\end{document}  
